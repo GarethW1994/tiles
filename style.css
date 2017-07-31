@@ -1,0 +1,44 @@
+#stage {
+    position: relative;
+}
+
+#stageUser {
+    position: relative;
+}
+
+#controls {
+    padding-top: 10em;
+}
+
+.cell {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.cellUser {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: steelblue;
+}
+
+
+#user {
+    margin-top: 3em;
+}
+
+#process {
+    margin-top: 0.5em;
+    width: 152px;
+    cursor: pointer;
+}
+
+#random {
+    margin-top: 10em;
+    width: 152px;
+    cursor: pointer;
+}

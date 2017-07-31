@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Visualizing 2D arrays</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <table id="computer">
+        <th>Random Pattern</th>
+        <tr>
+            <td>
+                <div id="stage"></div>
+            </td>
+        </tr>
+    </table>
+    
+    <button id = "random" onclick="random()">Next Pattern</button>
+    
+    <table id="user">
+        <th>Your Pattern</th>
+        <tr>
+            <td>
+                <div id="stageUser"></div>
+            </td>
+        </tr>
+    </table>
+
+    <div id="controls">
+        <table>
+            <tr>
+                <td> <input type="text" id="topLeft" size="2" /></td>
+                <td> <input type="text" id="topCenter" size="2" /></td>
+                <td> <input type="text" id="topRight" size="2" /></td>
+            </tr>
+
+             <tr>
+                <td> <input type="text" id="middleLeft" size="2" /></td>
+                <td> <input type="text" id="middleCenter" size="2" /></td>
+                <td> <input type="text" id="middleRight" size="2" /></td>
+            </tr>
+            
+             <tr>
+                <td> <input type="text" id="bottomLeft" size="2" /></td>
+                <td> <input type="text" id="bottomCenter" size="2" /></td>
+                <td> <input type="text" id="bottomRight" size="2" /></td>
+            </tr>
+        </table>
+    </div>
+    <button id = "process" onclick="process()">Process</button>
+</body>
+<script src="tile.js" charset="utf-8"></script>
+
+</html>
